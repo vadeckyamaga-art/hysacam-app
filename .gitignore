@@ -1,0 +1,24 @@
+# Dépendances installées — se régénèrent avec "npm install", inutile de les versionner
+node_modules/
+
+# Fichiers d'environnement — contiennent des secrets, NE JAMAIS les pousser sur GitHub
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# Fichiers de build
+dist/
+build/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
